@@ -25,5 +25,5 @@ Twitterからスパムを非表示にする<s>ツイ廃のお前らにぴった�
 - 通知欄<br>
   - 8人以上に1ツイート内でメンションしているツイート
 # プルリクエスト大歓迎！
-開発：よっキング([Twitter](https://twitter.com/ReYYYYoking))<br>
+開発：よっキング([Twitter](https://x.com/ReYYYYoking))<br>
 協力など：みんな

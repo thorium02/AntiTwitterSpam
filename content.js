@@ -761,7 +761,7 @@ function UpdateReplyObjects()
 // TwitterのURLを判定する関数
 function isTwitterProfileURL(url) {
     // 正規表現パターン
-    const pattern = /^https:\/\/twitter\.com\/[^\/]+\/?$/;
+    const pattern = /^https:\/\/x\.com\/[^\/]+\/?$/;
 
     // マッチング
     const isMatch = pattern.test(url);
@@ -785,13 +785,13 @@ function UpdateSearchObjects() {
 }
 // TwitterのURLを判定する関数
 function isTwitterNotificationURL(url) {
-    return url.endsWith("twitter.com/notifications") || url.endsWith("twitter.com/notifications/") ||
-        url.endsWith("twitter.com/notifications/mentions") || url.endsWith("twitter.com/notifications/mentions/");
+    return url.endsWith("x.com/notifications") || url.endsWith("x.com/notifications/") ||
+        url.endsWith("x.com/notifications/mentions") || url.endsWith("x.com/notifications/mentions/");
 }
 // TwitterのURLを判定する関数
 function isTweetURL(url) {
     // 正規表現パターン
-    const pattern = /^https:\/\/twitter\.com\/\w+\/status\/\d+$/;
+    const pattern = /^https:\/\/x\.com\/\w+\/status\/\d+$/;
 
     // マッチング
     const isMatch = pattern.test(url);
